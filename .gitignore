@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs
+/DotNetCoreDriver/ExampleConsoleApp-ReadValues/obj
+/DotNetCoreDriver/.vs/DL24Driver/v16
+/DotNetCoreDriver/DL24Driver/bin/Debug/netstandard2.0
+/DotNetCoreDriver/DL24Driver/obj
