@@ -88,7 +88,7 @@ namespace DL24Driver
 			serialPort.DiscardOutBuffer();
 			serialPort.DiscardInBuffer();
 			serialPort.Write(txBuffer, 0, 10);
-			Thread.Sleep(500);
+			Thread.Sleep(600);
 		}
 	}
 }
