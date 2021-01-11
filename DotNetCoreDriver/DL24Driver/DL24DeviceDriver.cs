@@ -6,7 +6,7 @@ using System.Threading;
 
 namespace DL24Driver
 {
-	public class DL24DeviceDriver
+    public class DL24DeviceDriver
 	{
 		public event Dl24DataReceivedEventHandler DataRecieved;
 
@@ -90,16 +90,5 @@ namespace DL24Driver
 			serialPort.Write(txBuffer, 0, 10);
 			Thread.Sleep(500);
 		}
-
-	}
-
-	public enum Dl24Commands 
-	{ 
-		OK = 50,
-		Plus = 51,
-		Minus = 52,
-		Setup = 49,
-		ElectricReset = 1,
-		ResetAll = 5,
 	}
 }

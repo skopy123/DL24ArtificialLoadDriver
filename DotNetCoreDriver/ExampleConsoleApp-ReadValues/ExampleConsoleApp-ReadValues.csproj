@@ -6,4 +6,8 @@
     <RootNamespace>ExampleConsoleApp_ReadValues</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DL24Driver\DL24Driver.csproj" />
+  </ItemGroup>
+
 </Project>

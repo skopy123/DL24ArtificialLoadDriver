@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ExampleConsoleApp-ReadValues": {
+      "commandName": "Project",
+      "commandLineArgs": "-p COM6"
+    }
+  }
+}
